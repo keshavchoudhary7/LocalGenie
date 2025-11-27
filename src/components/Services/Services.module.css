@@ -1,0 +1,16 @@
+.section { padding: 64px 0; background: #f8fafc; }
+.header { text-align: center; margin-bottom: 18px; }
+
+.card { position: relative; min-height: 320px; border-radius: 14px; overflow: hidden; display:flex; align-items:center; justify-content:center; }
+.gradient { position:absolute; inset:0; background: linear-gradient(180deg, rgba(26,35,126,0.85), rgba(255,255,255,0)); mix-blend-mode: multiply; }
+.content { position: relative; z-index: 5; text-align:center; padding: 24px; color: #fff; }
+.icon { margin-bottom: 12px; }
+.title { font-size: 1.25rem; margin: 0 0 6px 0; }
+.price { margin: 0 0 12px 0; }
+.book { background: #FF6B35; color: #fff; border: none; padding: 10px 14px; border-radius: 8px; cursor:pointer; }
+
+.featured { box-shadow: 0 12px 30px rgba(10,10,10,0.12); transform: scale(1.02); }
+
+@media (min-width: 768px) {
+  .card { min-height: 360px; }
+}

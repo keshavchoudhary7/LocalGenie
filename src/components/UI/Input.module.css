@@ -1,0 +1,21 @@
+.wrap { margin-bottom: 14px; }
+
+.label { display: block; font-size: 0.875rem; font-weight: 600; margin-bottom: 6px; color: #0a0a0a; }
+.required { color: #FF6B35; }
+
+.inputWrap { position: relative; display: flex; align-items: center; }
+.inputWrap input { width: 100%; padding: 10px 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; transition: all 200ms; }
+.inputWrap input:focus { outline: none; border-color: #FF6B35; box-shadow: 0 0 0 3px rgba(255,107,53,0.1); }
+
+.icon { position: absolute; left: 12px; color: #999; display: flex; align-items: center; pointer-events: none; }
+.inputWrap input:not(:placeholder-shown) ~ .icon, .filled .icon { color: #FF6B35; }
+
+.message { margin-top: 6px; font-size: 0.8rem; margin-bottom: 0; }
+.errorMsg { color: #e53e3e; }
+.successMsg { color: #22863a; }
+
+.error input { border-color: #e53e3e; }
+.error input:focus { box-shadow: 0 0 0 3px rgba(229,62,62,0.1); }
+
+.success input { border-color: #22863a; }
+.success input:focus { box-shadow: 0 0 0 3px rgba(34,134,58,0.1); }

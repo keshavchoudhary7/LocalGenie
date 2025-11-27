@@ -1,0 +1,19 @@
+.section { padding: 64px 0; background: #0a0a0a; color: #fff; }
+.inner { display:flex; gap:20px; align-items:center; }
+.left { flex: 1 1 45%; }
+.right { flex: 1 1 55%; display:flex; justify-content:center; }
+.features { list-style: none; padding: 0; margin: 12px 0 18px 0; }
+.features li { margin: 8px 0; }
+.cta { background: #FF6B35; color: #fff; padding: 10px 14px; border: none; border-radius: 8px; }
+
+.mockup { width: 320px; max-width: 100%; }
+.phone { width: 320px; height: 640px; border-radius: 36px; background: linear-gradient(180deg, #111827, #0b1220); padding: 18px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
+.screen { background: #fff; height: 100%; border-radius: 20px; padding: 12px; overflow: auto; display:flex; flex-direction:column; gap:10px; }
+.bubble { max-width: 85%; padding: 10px 12px; border-radius: 14px; }
+.ai { background: #f1f5f9; color: #0a0a0a; align-self: flex-start; }
+.user { background: #FF6B35; color: #fff; align-self: flex-end; }
+
+@media (max-width: 767px) {
+  .inner { flex-direction: column; }
+  .phone { width: 260px; height: 520px; }
+}
